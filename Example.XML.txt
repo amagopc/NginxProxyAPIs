@@ -1,0 +1,286 @@
+<!--
+ This is a configuration example of the Windows service wrapper.
+ This configuration file should be placed in the same directory as WinSW.exe, with the same name.
+ For example, for myapp.exe, the configuration file name should be myapp.xml.
+
+ More information: https://github.com/kohsuke/winsw/blob/master/doc/xmlconfigfile.md
+-->
+<configuration>
+  
+<!-- 
+SECTION: Required Item
+-->
+  
+  <! - Service ID, must be unique in Windows system - >
+  <id>myapp</id>
+  <! - Service Display Name, English and Number only --> ___________
+  <name>MyApp Service (powered by WinSW)</name>
+  <! - Service description, only in English and numerals - >.
+  <description>This service is a service cratead from a sample configuration</description>
+  
+  <! - The path to start the executable file - >
+  <executable>%BASE%\myExecutable.exe</executable>
+
+<!--
+SECTION: Installation
+These options are only valid at installation time. After the configuration is modified, the service must be reinstalled to take effect.
+-->
+
+  <!--
+    OPTION: serviceaccount
+    Define the account to run the service.
+  -->
+  <!--
+  <serviceaccount>
+    <domain>YOURDOMAIN</domain>
+    <user>useraccount</user>
+    <password>Pa55w0rd</password>
+    <allowservicelogon>true</allowservicelogon>
+  </serviceaccount>
+  -->
+  
+  <!--
+    OPTION: onfailure
+    Define a series of operations that are executed sequentially if the managed executable fails.
+    Supported operations: restart, reboot, none
+  -->
+  <!--
+  <onfailure action="restart" delay="10 sec"/>
+  <onfailure action="restart" delay="20 sec"/>
+  <onfailure action="reboot" />
+  -->
+  
+  <!--
+    OPTION: resetfailure
+    The time when the windows service resets the failure state.
+    Default value 1 day
+  -->
+  <!--
+  <resetfailure>1 hour</resetfailure>
+  -->
+
+<!--
+SECTION: Executing Management Configuration
+-->
+
+  <!-- 
+    OPTION: arguments
+    The parameters passed to the executable.
+  -->
+  <!--
+  <arguments>-classpath c:\cygwin\home\kohsuke\ws\hello-world\out\production\hello-world test.Main</arguments>
+  -->
+
+  <!-- 
+    OPTION: startarguments
+    Executable file startup parameters.
+    If configured, override arguments
+  -->
+  <!--
+  <startarguments></startarguments>
+  -->
+  
+  <!--
+    OPTION: workingdirectory
+    If specified, the default working directory of the executable file is set.
+    Default value: directory of executable files wrapped in services
+  -->
+  <!--
+  <workingdirectory>C:\myApp\work</workingdirectory>
+-->
+  
+  <!--
+    OPTION: priority
+    The required process priority.
+    Settable values: Normal, Idle, High, RealTime, Below Normal, Above Normal
+    Default value: Normal
+  -->
+  <priority>Normal</priority>
+  
+  <!-- 
+    OPTION: stoptimeout
+    Before forcing the termination of an executable file, try the wait time for normal closure.
+    Default value: 15 seconds
+  -->
+  <stoptimeout>15 sec</stoptimeout>
+    
+  <!--
+    OPTION: stopparentprocessfirst
+    If set to true, terminate the parent process before stopping the child process.
+    Default value: false
+  -->
+  <stopparentprocessfirst>false</stopparentprocessfirst>
+
+  <!-- 
+    OPTION: stopexecutable
+    Executable file path to execute shutdown service.
+    This configuration is only used when "stoparguments" are configured. If not, close the service with "executable"
+  -->
+  <!--
+  <stopexecutable>%BASE%\stop.exe</stopexecutable>
+  -->
+
+  <!-- 
+    OPTION: stoparguments
+    Additional parameters passed to "stopexecutable" when terminating the service
+    This option also allows termination of executable files by stopping executable files
+  -->
+  <!--
+  <stoparguments>-stop true</stoparguments>
+  -->
+<!-- 
+SECTION: Service Management
+-->
+    <!--
+      OPTION: startmode
+      Define service startup mode
+      Support patterns: Automatic, Manual, Boot, System (latter ones are supported for driver services only)
+      Default mode: Automatic
+    -->
+    <startmode>Automatic</startmode>
+    
+    <!--
+      OPTION: delayedAutoStart
+      If "Automatic" is configured in "startmode", delayed automatic startup is enabled.
+      See the Winsw documentation for information on supported platform versions and constraints.
+    -->
+    <!--
+        <delayedAutoStart/>
+    -->
+    
+    <!-- 
+      OPTION: depend
+      The service started before the service started.
+    -->
+    <!--
+    <depend>Eventlog</depend>
+    <depend>W32Time</depend>
+    -->
+    
+    <!--
+      OPTION: waithint
+      The time required to suspend the stop operation
+      Before the specified time period passes, the service should call the setServiceStatus function next time.
+      Otherwise, the service will be marked as unresponsive
+      Default value: 15 seconds
+    -->
+    <waithint>15 sec</waithint>
+    
+    <!--
+      OPTION: sleeptime
+      The time before the service calls the setServiceStatus function next time.
+      Don't go beyond "waithint". The recommended interval is one tenth of "waithint", but not less than 1 second or 10 seconds.
+      Default value: 1 second
+    -->
+    <sleeptime>1 sec</sleeptime>
+    
+    <!--
+      OPTION: interactive
+      Indicates that the service can interact with the desktop.
+    -->
+    <!--
+    <interactive/>
+    -->
+    
+<!-- 
+SECTION: Logging 
+-->
+
+  <!--
+    OPTION: logpath
+    Set a custom log directory for all logs generated by the service wrapper.
+    Default value: directory containing the executor
+  -->
+  <!--
+    <logpath>%BASE%\logs</logpath>
+  -->
+  
+  <!--
+    OPTION: log
+    Define a logging mode for the log generated for the executable file.
+    Support model:
+      * Appnd - Appends to existing logs
+      * none - Do not save logs
+      * reset - Erase logs at startup
+      * roll - Automated circular partition of logs by size
+      * roll-by-time - Segmentation of logs by date loops
+    Default mode: append
+    
+    Each mode has different settings. Https://github.com/kohsuke/winsw/blob/master/doc/loggingAndErrorReporting.md
+  -->
+  <log mode="append">
+    <!--
+    <setting1/>
+    <setting2/>
+  -->
+  </log>
+  
+<!--
+SECTION: Environment Settings
+-->
+  <!--
+    OPTION: env
+    Set or override environment variables.
+    Multiple entries may be configured at the top level.
+  -->
+  <!--
+  <env name="MY_TOOL_HOME" value="C:\etc\tools\myTool" />
+  <env name="LM_LICENSE_FILE" value="host1;host2" />
+  -->
+
+
+  <!--
+    OPTION: download
+    A list of downloads executed by the wrapper before startup.
+  -->
+  <!--
+  <download from="http://www.google.com/" to="%BASE%\index.html" />
+  
+  Download and fail service startup in case of an error:
+  <download from="http://www.nosuchhostexists.com/" to="%BASE%\dummy.html" failOnError="true"/>
+
+  Examples of basic authentication insecurity due to unencrypted connections:
+  <download from="http://example.com/some.dat" to="%BASE%\some.dat"
+            auth="basic" unsecureAuth=“true”
+            username="aUser" password=“aPassw0rd" />
+
+  Security Basic Authentication Through HTTPS
+  <download from="https://example.com/some.dat" to="%BASE%\some.dat"
+            auth="basic" username="aUser" password="aPassw0rd" />
+
+  When the target server and client are members of the same domain and the client domain belongs to a trusted domain, secure authentication:
+  <download from="https://example.com/some.dat" to="%BASE%\some.dat" auth="sspi" />
+  -->
+
+<!-- 
+SECTION: Other Options
+-->
+  
+  <!--
+    OPTION: beeponshutdown
+    Indicates that the service should beep when it is off (if the operating system supports it).
+  -->
+  <!--
+  <beeponshutdown/> 
+  -->
+  
+<!--
+SECTION: Extension
+This configuration section allows you to specify custom extensions.
+For more information, visit https://github.com/kohsuke/winsw/blob/master/doc/extensions/extensions.md
+-->
+
+<!--
+<extensions>
+  Extension 1: id values must be unique
+  <extension enabled="true" id="extension1" className="winsw.Plugins.SharedDirectoryMapper.SharedDirectoryMapper">
+    <mapping>
+      <map enabled="false" label="N:" uncpath="\\UNC"/>
+      <map enabled="false" label="M:" uncpath="\\UNC2"/>
+    </mapping>
+  </extension>
+  ...
+</extensions>
+-->
+
+</configuration>
