@@ -134,3 +134,125 @@
 2020-05-27 21:27:56,168 WARN  - SIGINT to 3612 failed - Killing as fallback
 2020-05-27 21:27:56,171 INFO  - Finished nginx
 2020-05-27 21:27:56,174 DEBUG - Completed. Exit code is 0
+2020-06-03 11:23:18,694 DEBUG - Starting WinSW in the service mode
+2020-06-03 11:23:18,713 INFO  - Starting C:\DEV\nginx\nginx.exe 
+2020-06-03 11:23:19,123 INFO  - Started process 5252
+2020-06-03 11:23:19,128 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.DefaultLogAppender
+2020-06-03 11:33:20,148 INFO  - Stopping nginx
+2020-06-03 11:33:20,149 DEBUG - ProcessKill 5252
+2020-06-03 11:33:20,294 INFO  - Found child process: 26432 Name: nginx.exe
+2020-06-03 11:33:20,337 INFO  - Found child process: 17016 Name: conhost.exe
+2020-06-03 11:33:20,384 INFO  - Stopping process 17016
+2020-06-03 11:33:20,391 INFO  - Send SIGINT 17016
+2020-06-03 11:33:20,393 WARN  - SIGINT to 17016 failed - Killing as fallback
+2020-06-03 11:33:20,400 INFO  - Stopping process 26432
+2020-06-03 11:33:20,407 INFO  - Send SIGINT 26432
+2020-06-03 11:33:20,408 WARN  - SIGINT to 26432 failed - Killing as fallback
+2020-06-03 11:33:20,416 INFO  - Stopping process 5252
+2020-06-03 11:33:20,423 INFO  - Send SIGINT 5252
+2020-06-03 11:33:20,424 WARN  - SIGINT to 5252 failed - Killing as fallback
+2020-06-03 11:33:20,427 INFO  - Finished nginx
+2020-06-03 11:33:20,428 DEBUG - Completed. Exit code is 0
+2020-06-03 11:33:22,229 DEBUG - Starting WinSW in the service mode
+2020-06-03 11:33:22,243 INFO  - Starting C:\DEV\nginx\nginx.exe 
+2020-06-03 11:33:22,262 INFO  - Started process 4400
+2020-06-03 11:33:22,267 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.DefaultLogAppender
+2020-06-03 11:35:08,006 INFO  - Stopping nginx
+2020-06-03 11:35:08,007 DEBUG - ProcessKill 4400
+2020-06-03 11:35:08,071 INFO  - Found child process: 20996 Name: nginx.exe
+2020-06-03 11:35:08,116 INFO  - Found child process: 12368 Name: conhost.exe
+2020-06-03 11:35:08,159 INFO  - Stopping process 12368
+2020-06-03 11:35:08,166 INFO  - Send SIGINT 12368
+2020-06-03 11:35:08,168 WARN  - SIGINT to 12368 failed - Killing as fallback
+2020-06-03 11:35:08,175 INFO  - Stopping process 20996
+2020-06-03 11:35:08,181 INFO  - Send SIGINT 20996
+2020-06-03 11:35:08,182 WARN  - SIGINT to 20996 failed - Killing as fallback
+2020-06-03 11:35:08,189 INFO  - Stopping process 4400
+2020-06-03 11:35:08,197 INFO  - Send SIGINT 4400
+2020-06-03 11:35:08,198 WARN  - SIGINT to 4400 failed - Killing as fallback
+2020-06-03 11:35:08,201 INFO  - Finished nginx
+2020-06-03 11:35:08,202 DEBUG - Completed. Exit code is 0
+2020-06-03 11:35:10,184 DEBUG - Starting WinSW in the service mode
+2020-06-03 11:35:10,198 INFO  - Starting C:\DEV\nginx\nginx.exe 
+2020-06-03 11:35:10,217 INFO  - Started process 17012
+2020-06-03 11:35:10,222 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.DefaultLogAppender
+2020-06-03 11:38:17,962 INFO  - Stopping nginx
+2020-06-03 11:38:17,962 DEBUG - ProcessKill 17012
+2020-06-03 11:38:18,035 INFO  - Found child process: 8808 Name: nginx.exe
+2020-06-03 11:38:18,083 INFO  - Found child process: 9980 Name: conhost.exe
+2020-06-03 11:38:18,133 INFO  - Stopping process 9980
+2020-06-03 11:38:18,140 INFO  - Send SIGINT 9980
+2020-06-03 11:38:18,142 WARN  - SIGINT to 9980 failed - Killing as fallback
+2020-06-03 11:38:18,150 INFO  - Stopping process 8808
+2020-06-03 11:38:18,158 INFO  - Send SIGINT 8808
+2020-06-03 11:38:18,158 WARN  - SIGINT to 8808 failed - Killing as fallback
+2020-06-03 11:38:18,166 INFO  - Stopping process 17012
+2020-06-03 11:38:18,174 INFO  - Send SIGINT 17012
+2020-06-03 11:38:18,175 WARN  - SIGINT to 17012 failed - Killing as fallback
+2020-06-03 11:38:18,181 INFO  - Finished nginx
+2020-06-03 11:38:18,183 DEBUG - Completed. Exit code is 0
+2020-06-03 11:38:20,021 DEBUG - Starting WinSW in the service mode
+2020-06-03 11:38:20,035 INFO  - Starting C:\DEV\nginx\nginx.exe 
+2020-06-03 11:38:20,054 INFO  - Started process 12836
+2020-06-03 11:38:20,059 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.DefaultLogAppender
+2020-06-03 13:55:19,441 INFO  - Stopping nginx
+2020-06-03 13:55:19,443 DEBUG - ProcessKill 12836
+2020-06-03 13:55:19,525 INFO  - Found child process: 20876 Name: nginx.exe
+2020-06-03 13:55:19,567 INFO  - Found child process: 20568 Name: conhost.exe
+2020-06-03 13:55:19,611 INFO  - Stopping process 20568
+2020-06-03 13:55:19,619 INFO  - Send SIGINT 20568
+2020-06-03 13:55:19,621 WARN  - SIGINT to 20568 failed - Killing as fallback
+2020-06-03 13:55:19,628 INFO  - Stopping process 20876
+2020-06-03 13:55:19,635 INFO  - Send SIGINT 20876
+2020-06-03 13:55:19,635 WARN  - SIGINT to 20876 failed - Killing as fallback
+2020-06-03 13:55:19,642 INFO  - Stopping process 12836
+2020-06-03 13:55:19,650 INFO  - Send SIGINT 12836
+2020-06-03 13:55:19,651 WARN  - SIGINT to 12836 failed - Killing as fallback
+2020-06-03 13:55:19,653 INFO  - Finished nginx
+2020-06-03 13:55:19,655 DEBUG - Completed. Exit code is 0
+2020-06-03 13:55:21,509 DEBUG - Starting WinSW in the service mode
+2020-06-03 13:55:21,523 INFO  - Starting C:\DEV\nginx\nginx.exe 
+2020-06-03 13:55:21,542 INFO  - Started process 18356
+2020-06-03 13:55:21,548 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.DefaultLogAppender
+2020-06-04 06:30:07,463 DEBUG - Starting WinSW in the service mode
+2020-06-04 06:30:07,697 INFO  - Starting C:\DEV\nginx\nginx.exe 
+2020-06-04 06:30:07,774 INFO  - Started process 7176
+2020-06-04 06:30:07,779 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.DefaultLogAppender
+2020-06-05 05:43:47,473 INFO  - Stopping nginx
+2020-06-05 05:43:47,474 DEBUG - ProcessKill 7176
+2020-06-05 05:43:47,536 INFO  - Found child process: 7504 Name: nginx.exe
+2020-06-05 05:43:47,581 INFO  - Found child process: 7552 Name: conhost.exe
+2020-06-05 05:43:47,638 INFO  - Stopping process 7552
+2020-06-05 05:43:47,645 INFO  - Send SIGINT 7552
+2020-06-05 05:43:47,648 WARN  - SIGINT to 7552 failed - Killing as fallback
+2020-06-05 05:43:47,656 INFO  - Stopping process 7504
+2020-06-05 05:43:47,664 INFO  - Send SIGINT 7504
+2020-06-05 05:43:47,664 WARN  - SIGINT to 7504 failed - Killing as fallback
+2020-06-05 05:43:47,671 INFO  - Stopping process 7176
+2020-06-05 05:43:47,678 INFO  - Send SIGINT 7176
+2020-06-05 05:43:47,679 WARN  - SIGINT to 7176 failed - Killing as fallback
+2020-06-05 05:43:47,682 INFO  - Finished nginx
+2020-06-05 05:43:47,684 DEBUG - Completed. Exit code is 0
+2020-06-05 05:43:49,539 DEBUG - Starting WinSW in the service mode
+2020-06-05 05:43:49,554 INFO  - Starting C:\DEV\nginx\nginx.exe 
+2020-06-05 05:43:49,875 INFO  - Started process 14936
+2020-06-05 05:43:49,881 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.DefaultLogAppender
+2020-06-05 06:10:22,076 INFO  - Stopping nginx
+2020-06-05 06:10:22,077 DEBUG - ProcessKill 14936
+2020-06-05 06:10:22,149 INFO  - Found child process: 19856 Name: nginx.exe
+2020-06-05 06:10:22,200 INFO  - Found child process: 1148 Name: conhost.exe
+2020-06-05 06:10:22,248 INFO  - Stopping process 1148
+2020-06-05 06:10:22,255 INFO  - Send SIGINT 1148
+2020-06-05 06:10:22,257 WARN  - SIGINT to 1148 failed - Killing as fallback
+2020-06-05 06:10:22,264 INFO  - Stopping process 19856
+2020-06-05 06:10:22,271 INFO  - Send SIGINT 19856
+2020-06-05 06:10:22,272 WARN  - SIGINT to 19856 failed - Killing as fallback
+2020-06-05 06:10:22,279 INFO  - Stopping process 14936
+2020-06-05 06:10:22,287 INFO  - Send SIGINT 14936
+2020-06-05 06:10:22,288 WARN  - SIGINT to 14936 failed - Killing as fallback
+2020-06-05 06:10:22,291 INFO  - Finished nginx
+2020-06-05 06:10:22,293 DEBUG - Completed. Exit code is 0
+2020-06-05 06:10:24,138 DEBUG - Starting WinSW in the service mode
+2020-06-05 06:10:24,151 INFO  - Starting C:\DEV\nginx\nginx.exe 
+2020-06-05 06:10:24,168 INFO  - Started process 20248
+2020-06-05 06:10:24,173 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.DefaultLogAppender
