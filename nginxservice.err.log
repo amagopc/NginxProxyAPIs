@@ -1,0 +1,4 @@
+nginx: [emerg] invalid event type "epoll" in C:\DEV\nginx/conf/nginx.conf:19
+nginx: [emerg] "keepalive_timeout" directive is duplicate in C:\DEV\nginx/conf/nginx.conf:44
+nginx: [emerg] "keepalive_timeout" directive is duplicate in C:\DEV\nginx/conf/nginx.conf:44
+nginx: [emerg] "keepalive_timeout" directive is duplicate in C:\DEV\nginx/conf/nginx.conf:44

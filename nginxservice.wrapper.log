@@ -333,3 +333,498 @@ System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is i
 2020-06-05 19:48:34,899 INFO  - Starting C:\DEV\nginx\nginx.exe 
 2020-06-05 19:48:34,968 INFO  - Started process 7788
 2020-06-05 19:48:34,974 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.DefaultLogAppender
+2020-06-09 13:22:10,061 DEBUG - Starting WinSW in the service mode
+2020-06-09 13:22:10,238 INFO  - Starting C:\DEV\nginx\nginx.exe 
+2020-06-09 13:22:10,356 INFO  - Started process 6232
+2020-06-09 13:22:10,361 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.DefaultLogAppender
+2020-06-12 04:25:27,170 INFO  - Stopping nginx
+2020-06-12 04:25:27,170 DEBUG - ProcessKill 6232
+2020-06-12 04:25:27,342 WARN  - Failed to locate children of the process with PID=6232. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is in progress.
+
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2020-06-12 04:25:27,367 INFO  - Stopping process 6232
+2020-06-12 04:25:27,367 INFO  - Send SIGINT 6232
+2020-06-12 04:25:27,367 WARN  - SIGINT to 6232 failed - Killing as fallback
+2020-06-12 04:25:27,367 INFO  - Finished nginx
+2020-06-12 04:25:27,383 DEBUG - Completed. Exit code is 0
+2020-06-12 04:26:11,746 DEBUG - Starting WinSW in the service mode
+2020-06-12 04:26:11,868 INFO  - Starting C:\DEV\nginx\nginx.exe 
+2020-06-12 04:26:11,960 INFO  - Started process 7180
+2020-06-12 04:26:11,968 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.DefaultLogAppender
+2020-06-14 07:27:22,242 INFO  - Stopping nginx
+2020-06-14 07:27:22,273 DEBUG - ProcessKill 7180
+2020-06-14 07:27:22,413 WARN  - Failed to locate children of the process with PID=7180. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x80040154): Class not registered
+
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2020-06-14 07:27:22,429 INFO  - Stopping process 7180
+2020-06-14 07:27:22,429 INFO  - Send SIGINT 7180
+2020-06-14 07:27:22,429 WARN  - SIGINT to 7180 failed - Killing as fallback
+2020-06-14 07:27:22,445 INFO  - Finished nginx
+2020-06-14 07:27:22,445 DEBUG - Completed. Exit code is 0
+2020-06-14 07:27:54,094 DEBUG - Starting WinSW in the service mode
+2020-06-14 07:27:54,309 INFO  - Starting C:\DEV\nginx\nginx.exe 
+2020-06-14 07:27:54,379 INFO  - Started process 7712
+2020-06-14 07:27:54,384 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.DefaultLogAppender
+2020-06-14 20:38:38,584 INFO  - Stopping nginx
+2020-06-14 20:38:38,584 DEBUG - ProcessKill 7712
+2020-06-14 20:38:38,663 INFO  - Found child process: 8096 Name: nginx.exe
+2020-06-14 20:38:38,694 INFO  - Found child process: 8108 Name: conhost.exe
+2020-06-14 20:38:38,741 INFO  - Stopping process 8108
+2020-06-14 20:38:38,741 INFO  - Send SIGINT 8108
+2020-06-14 20:38:38,741 WARN  - SIGINT to 8108 failed - Killing as fallback
+2020-06-14 20:38:38,756 INFO  - Stopping process 8096
+2020-06-14 20:38:38,756 INFO  - Send SIGINT 8096
+2020-06-14 20:38:38,756 WARN  - SIGINT to 8096 failed - Killing as fallback
+2020-06-14 20:38:38,772 INFO  - Stopping process 7712
+2020-06-14 20:38:38,772 INFO  - Send SIGINT 7712
+2020-06-14 20:38:38,772 WARN  - SIGINT to 7712 failed - Killing as fallback
+2020-06-14 20:38:38,772 INFO  - Finished nginx
+2020-06-14 20:38:38,772 DEBUG - Completed. Exit code is 0
+2020-06-14 20:38:40,644 DEBUG - Starting WinSW in the service mode
+2020-06-14 20:38:40,659 INFO  - Starting C:\DEV\nginx\nginx.exe 
+2020-06-14 20:38:40,972 INFO  - Started process 476
+2020-06-14 20:38:40,988 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.DefaultLogAppender
+2020-06-14 20:50:52,917 INFO  - Stopping nginx
+2020-06-14 20:50:52,917 DEBUG - ProcessKill 476
+2020-06-14 20:50:52,979 INFO  - Found child process: 19120 Name: nginx.exe
+2020-06-14 20:50:53,026 INFO  - Found child process: 5952 Name: conhost.exe
+2020-06-14 20:50:53,073 INFO  - Stopping process 5952
+2020-06-14 20:50:53,073 INFO  - Send SIGINT 5952
+2020-06-14 20:50:53,073 WARN  - SIGINT to 5952 failed - Killing as fallback
+2020-06-14 20:50:53,089 INFO  - Stopping process 19120
+2020-06-14 20:50:53,089 INFO  - Send SIGINT 19120
+2020-06-14 20:50:53,089 WARN  - SIGINT to 19120 failed - Killing as fallback
+2020-06-14 20:50:53,089 INFO  - Stopping process 476
+2020-06-14 20:50:53,104 INFO  - Send SIGINT 476
+2020-06-14 20:50:53,104 WARN  - SIGINT to 476 failed - Killing as fallback
+2020-06-14 20:50:53,104 INFO  - Finished nginx
+2020-06-14 20:50:53,104 DEBUG - Completed. Exit code is 0
+2020-06-15 16:16:58,868 DEBUG - Starting WinSW in the service mode
+2020-06-15 16:16:58,968 INFO  - Starting C:\DEV\nginx\nginx.exe 
+2020-06-15 16:16:59,025 INFO  - Started process 7736
+2020-06-15 16:16:59,030 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.DefaultLogAppender
+2020-06-16 09:10:54,608 INFO  - Stopping nginx
+2020-06-16 09:10:54,624 DEBUG - ProcessKill 7736
+2020-06-16 09:10:54,764 WARN  - Failed to locate children of the process with PID=7736. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x80040154): Class not registered
+
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2020-06-16 09:10:54,811 INFO  - Stopping process 7736
+2020-06-16 09:10:54,811 INFO  - Send SIGINT 7736
+2020-06-16 09:10:54,811 WARN  - SIGINT to 7736 failed - Killing as fallback
+2020-06-16 09:10:54,827 INFO  - Finished nginx
+2020-06-16 09:10:54,827 DEBUG - Completed. Exit code is 0
+2020-06-16 09:11:24,718 DEBUG - Starting WinSW in the service mode
+2020-06-16 09:11:24,901 INFO  - Starting C:\DEV\nginx\nginx.exe 
+2020-06-16 09:11:25,046 INFO  - Started process 7680
+2020-06-16 09:11:25,050 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.DefaultLogAppender
+2020-06-17 20:31:00,791 INFO  - Stopping nginx
+2020-06-17 20:31:00,823 DEBUG - ProcessKill 7680
+2020-06-17 20:31:00,989 WARN  - Failed to locate children of the process with PID=7680. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x80040154): Class not registered
+
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2020-06-17 20:31:01,009 INFO  - Stopping process 7680
+2020-06-17 20:31:01,009 INFO  - Send SIGINT 7680
+2020-06-17 20:31:01,009 WARN  - SIGINT to 7680 failed - Killing as fallback
+2020-06-17 20:31:01,019 INFO  - Finished nginx
+2020-06-17 20:31:01,019 DEBUG - Completed. Exit code is 0
+2020-06-18 08:23:09,269 DEBUG - Starting WinSW in the service mode
+2020-06-18 08:23:09,350 INFO  - Starting C:\DEV\nginx\nginx.exe 
+2020-06-18 08:23:09,431 INFO  - Started process 7748
+2020-06-18 08:23:09,443 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.DefaultLogAppender
+2020-06-19 08:33:58,208 INFO  - Stopping nginx
+2020-06-19 08:33:58,239 DEBUG - ProcessKill 7748
+2020-06-19 08:33:58,411 WARN  - Failed to locate children of the process with PID=7748. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x80040154): Class not registered
+
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2020-06-19 08:33:58,442 INFO  - Stopping process 7748
+2020-06-19 08:33:58,442 INFO  - Send SIGINT 7748
+2020-06-19 08:33:58,442 WARN  - SIGINT to 7748 failed - Killing as fallback
+2020-06-19 08:33:58,474 INFO  - Finished nginx
+2020-06-19 08:33:58,505 DEBUG - Completed. Exit code is 0
+2020-06-19 08:34:34,487 DEBUG - Starting WinSW in the service mode
+2020-06-19 08:34:34,782 INFO  - Starting C:\DEV\nginx\nginx.exe 
+2020-06-19 08:34:34,897 INFO  - Started process 7660
+2020-06-19 08:34:34,903 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.DefaultLogAppender
+2020-06-20 08:57:06,316 DEBUG - Starting WinSW in the service mode
+2020-06-20 08:57:06,413 INFO  - Starting C:\DEV\nginx\nginx.exe 
+2020-06-20 08:57:06,486 INFO  - Started process 7356
+2020-06-20 08:57:06,490 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.DefaultLogAppender
+2020-06-22 09:35:58,777 INFO  - Stopping nginx
+2020-06-22 09:35:58,777 DEBUG - ProcessKill 7356
+2020-06-22 09:35:58,933 WARN  - Failed to locate children of the process with PID=7356. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x80040154): Class not registered
+
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2020-06-22 09:35:58,964 INFO  - Stopping process 7356
+2020-06-22 09:35:58,964 INFO  - Send SIGINT 7356
+2020-06-22 09:35:58,980 WARN  - SIGINT to 7356 failed - Killing as fallback
+2020-06-22 09:35:58,996 INFO  - Finished nginx
+2020-06-22 09:35:58,996 DEBUG - Completed. Exit code is 0
+2020-06-22 09:36:29,630 DEBUG - Starting WinSW in the service mode
+2020-06-22 09:36:29,795 INFO  - Starting C:\DEV\nginx\nginx.exe 
+2020-06-22 09:36:29,882 INFO  - Started process 7564
+2020-06-22 09:36:29,886 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.DefaultLogAppender
+2020-06-22 17:01:33,427 INFO  - Stopping nginx
+2020-06-22 17:01:33,427 DEBUG - ProcessKill 7564
+2020-06-22 17:01:33,576 WARN  - Failed to locate children of the process with PID=7564. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x80040154): Class not registered
+
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2020-06-22 17:01:33,608 INFO  - Stopping process 7564
+2020-06-22 17:01:33,608 INFO  - Send SIGINT 7564
+2020-06-22 17:01:33,623 WARN  - SIGINT to 7564 failed - Killing as fallback
+2020-06-22 17:01:33,639 INFO  - Finished nginx
+2020-06-22 17:01:33,654 DEBUG - Completed. Exit code is 0
+2020-06-22 17:02:06,737 DEBUG - Starting WinSW in the service mode
+2020-06-22 17:02:07,005 INFO  - Starting C:\DEV\nginx\nginx.exe 
+2020-06-22 17:02:07,057 INFO  - Started process 7800
+2020-06-22 17:02:07,062 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.DefaultLogAppender
+2020-06-26 00:11:57,177 INFO  - Stopping nginx
+2020-06-26 00:11:57,177 DEBUG - ProcessKill 7800
+2020-06-26 00:11:57,302 WARN  - Failed to locate children of the process with PID=7800. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x80040154): Class not registered
+
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2020-06-26 00:11:57,335 INFO  - Stopping process 7800
+2020-06-26 00:11:57,335 INFO  - Send SIGINT 7800
+2020-06-26 00:11:57,335 WARN  - SIGINT to 7800 failed - Killing as fallback
+2020-06-26 00:12:02,344 INFO  - Finished nginx
+2020-06-26 00:12:03,101 DEBUG - Completed. Exit code is 0
+2020-06-26 00:12:35,658 DEBUG - Starting WinSW in the service mode
+2020-06-26 00:12:35,773 INFO  - Starting C:\DEV\nginx\nginx.exe 
+2020-06-26 00:12:35,936 INFO  - Started process 6268
+2020-06-26 00:12:35,941 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.DefaultLogAppender
+2020-06-27 08:43:55,245 INFO  - Stopping nginx
+2020-06-27 08:43:55,245 DEBUG - ProcessKill 6268
+2020-06-27 08:43:55,402 WARN  - Failed to locate children of the process with PID=6268. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x80040154): Class not registered
+
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2020-06-27 08:43:55,433 INFO  - Stopping process 6268
+2020-06-27 08:43:55,433 INFO  - Send SIGINT 6268
+2020-06-27 08:43:55,433 WARN  - SIGINT to 6268 failed - Killing as fallback
+2020-06-27 08:43:55,433 INFO  - Finished nginx
+2020-06-27 08:43:55,449 DEBUG - Completed. Exit code is 0
+2020-06-27 08:44:30,224 DEBUG - Starting WinSW in the service mode
+2020-06-27 08:44:30,359 INFO  - Starting C:\DEV\nginx\nginx.exe 
+2020-06-27 08:44:30,453 INFO  - Started process 7792
+2020-06-27 08:44:30,458 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.DefaultLogAppender
+2020-06-28 14:06:07,216 INFO  - Stopping nginx
+2020-06-28 14:06:07,248 DEBUG - ProcessKill 7792
+2020-06-28 14:06:07,433 WARN  - Failed to locate children of the process with PID=7792. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x80040154): Class not registered
+
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2020-06-28 14:06:07,464 INFO  - Stopping process 7792
+2020-06-28 14:06:07,480 INFO  - Send SIGINT 7792
+2020-06-28 14:06:07,480 WARN  - SIGINT to 7792 failed - Killing as fallback
+2020-06-28 14:06:07,480 INFO  - Finished nginx
+2020-06-28 14:06:07,496 DEBUG - Completed. Exit code is 0
+2020-06-28 14:06:38,774 DEBUG - Starting WinSW in the service mode
+2020-06-28 14:06:38,921 INFO  - Starting C:\DEV\nginx\nginx.exe 
+2020-06-28 14:06:39,017 INFO  - Started process 7620
+2020-06-28 14:06:39,022 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.DefaultLogAppender
+2020-06-30 14:42:06,466 INFO  - Stopping nginx
+2020-06-30 14:42:06,466 DEBUG - ProcessKill 7620
+2020-06-30 14:42:06,668 WARN  - Failed to locate children of the process with PID=7620. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x80040154): Class not registered
+
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2020-06-30 14:42:06,694 INFO  - Stopping process 7620
+2020-06-30 14:42:06,694 INFO  - Send SIGINT 7620
+2020-06-30 14:42:06,694 WARN  - SIGINT to 7620 failed - Killing as fallback
+2020-06-30 14:42:06,709 INFO  - Finished nginx
+2020-06-30 14:42:06,709 DEBUG - Completed. Exit code is 0
+2020-06-30 14:42:35,825 DEBUG - Starting WinSW in the service mode
+2020-06-30 14:42:36,062 INFO  - Starting C:\DEV\nginx\nginx.exe 
+2020-06-30 14:42:36,130 INFO  - Started process 7632
+2020-06-30 14:42:36,139 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.DefaultLogAppender
+2020-07-01 00:15:09,810 INFO  - Stopping nginx
+2020-07-01 00:15:09,810 DEBUG - ProcessKill 7632
+2020-07-01 00:15:09,872 INFO  - Found child process: 7984 Name: nginx.exe
+2020-07-01 00:15:09,903 INFO  - Found child process: 7996 Name: conhost.exe
+2020-07-01 00:15:09,950 INFO  - Stopping process 7996
+2020-07-01 00:15:09,966 INFO  - Send SIGINT 7996
+2020-07-01 00:15:09,966 WARN  - SIGINT to 7996 failed - Killing as fallback
+2020-07-01 00:15:09,966 INFO  - Stopping process 7984
+2020-07-01 00:15:09,981 INFO  - Send SIGINT 7984
+2020-07-01 00:15:09,981 WARN  - SIGINT to 7984 failed - Killing as fallback
+2020-07-01 00:15:09,981 INFO  - Stopping process 7632
+2020-07-01 00:15:09,981 INFO  - Send SIGINT 7632
+2020-07-01 00:15:09,981 WARN  - SIGINT to 7632 failed - Killing as fallback
+2020-07-01 00:15:09,997 INFO  - Finished nginx
+2020-07-01 00:15:09,997 DEBUG - Completed. Exit code is 0
+2020-07-01 00:15:11,856 DEBUG - Starting WinSW in the service mode
+2020-07-01 00:15:11,872 INFO  - Starting C:\DEV\nginx\nginx.exe 
+2020-07-01 00:15:12,169 INFO  - Started process 11976
+2020-07-01 00:15:12,185 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.DefaultLogAppender
+2020-07-01 00:15:28,776 DEBUG - Starting WinSW in the service mode
+2020-07-01 00:15:28,791 INFO  - Starting C:\DEV\nginx\nginx.exe 
+2020-07-01 00:15:28,807 INFO  - Started process 17984
+2020-07-01 00:15:28,807 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.DefaultLogAppender
+2020-07-01 00:16:33,101 INFO  - Stopping nginx
+2020-07-01 00:16:33,101 DEBUG - ProcessKill 17984
+2020-07-01 00:16:33,164 INFO  - Found child process: 17508 Name: nginx.exe
+2020-07-01 00:16:33,195 INFO  - Found child process: 14744 Name: conhost.exe
+2020-07-01 00:16:33,226 INFO  - Stopping process 14744
+2020-07-01 00:16:33,242 INFO  - Send SIGINT 14744
+2020-07-01 00:16:33,242 WARN  - SIGINT to 14744 failed - Killing as fallback
+2020-07-01 00:16:33,242 INFO  - Stopping process 17508
+2020-07-01 00:16:33,257 INFO  - Send SIGINT 17508
+2020-07-01 00:16:33,257 WARN  - SIGINT to 17508 failed - Killing as fallback
+2020-07-01 00:16:33,257 INFO  - Stopping process 17984
+2020-07-01 00:16:33,257 INFO  - Send SIGINT 17984
+2020-07-01 00:16:33,273 WARN  - SIGINT to 17984 failed - Killing as fallback
+2020-07-01 00:16:33,273 INFO  - Finished nginx
+2020-07-01 00:16:33,273 DEBUG - Completed. Exit code is 0
+2020-07-01 00:16:35,156 DEBUG - Starting WinSW in the service mode
+2020-07-01 00:16:35,171 INFO  - Starting C:\DEV\nginx\nginx.exe 
+2020-07-01 00:16:35,187 INFO  - Started process 18084
+2020-07-01 00:16:35,187 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.DefaultLogAppender
+2020-07-01 00:16:50,363 DEBUG - Starting WinSW in the service mode
+2020-07-01 00:16:50,379 INFO  - Starting C:\DEV\nginx\nginx.exe 
+2020-07-01 00:16:50,395 INFO  - Started process 3588
+2020-07-01 00:16:50,395 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.DefaultLogAppender
+2020-07-01 00:16:52,635 DEBUG - Starting WinSW in the service mode
+2020-07-01 00:16:52,651 INFO  - Starting C:\DEV\nginx\nginx.exe 
+2020-07-01 00:16:52,667 INFO  - Started process 16656
+2020-07-01 00:16:52,667 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.DefaultLogAppender
+2020-07-01 00:17:15,502 DEBUG - Starting WinSW in the service mode
+2020-07-01 00:17:15,518 INFO  - Starting C:\DEV\nginx\nginx.exe 
+2020-07-01 00:17:15,533 INFO  - Started process 5152
+2020-07-01 00:17:15,533 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.DefaultLogAppender
+2020-07-01 00:17:47,693 INFO  - Stopping nginx
+2020-07-01 00:17:47,693 DEBUG - ProcessKill 5152
+2020-07-01 00:17:47,755 INFO  - Found child process: 9548 Name: nginx.exe
+2020-07-01 00:17:47,787 INFO  - Found child process: 5248 Name: conhost.exe
+2020-07-01 00:17:47,818 INFO  - Stopping process 5248
+2020-07-01 00:17:47,833 INFO  - Send SIGINT 5248
+2020-07-01 00:17:47,833 WARN  - SIGINT to 5248 failed - Killing as fallback
+2020-07-01 00:17:47,833 INFO  - Stopping process 9548
+2020-07-01 00:17:47,849 INFO  - Send SIGINT 9548
+2020-07-01 00:17:47,849 WARN  - SIGINT to 9548 failed - Killing as fallback
+2020-07-01 00:17:47,849 INFO  - Stopping process 5152
+2020-07-01 00:17:47,849 INFO  - Send SIGINT 5152
+2020-07-01 00:17:47,865 WARN  - SIGINT to 5152 failed - Killing as fallback
+2020-07-01 00:17:47,865 INFO  - Finished nginx
+2020-07-01 00:17:47,865 DEBUG - Completed. Exit code is 0
+2020-07-01 00:17:49,739 DEBUG - Starting WinSW in the service mode
+2020-07-01 00:17:49,754 INFO  - Starting C:\DEV\nginx\nginx.exe 
+2020-07-01 00:17:49,770 INFO  - Started process 15244
+2020-07-01 00:17:49,770 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.DefaultLogAppender
+2020-07-01 00:18:54,366 INFO  - Stopping nginx
+2020-07-01 00:18:54,366 DEBUG - ProcessKill 15244
+2020-07-01 00:18:54,428 INFO  - Found child process: 14576 Name: nginx.exe
+2020-07-01 00:18:54,460 INFO  - Found child process: 6868 Name: conhost.exe
+2020-07-01 00:18:54,507 INFO  - Stopping process 6868
+2020-07-01 00:18:54,507 INFO  - Send SIGINT 6868
+2020-07-01 00:18:54,507 WARN  - SIGINT to 6868 failed - Killing as fallback
+2020-07-01 00:18:54,522 INFO  - Stopping process 14576
+2020-07-01 00:18:54,522 INFO  - Send SIGINT 14576
+2020-07-01 00:18:54,522 WARN  - SIGINT to 14576 failed - Killing as fallback
+2020-07-01 00:18:54,522 INFO  - Stopping process 15244
+2020-07-01 00:18:54,538 INFO  - Send SIGINT 15244
+2020-07-01 00:18:54,538 WARN  - SIGINT to 15244 failed - Killing as fallback
+2020-07-01 00:18:54,538 INFO  - Finished nginx
+2020-07-01 00:18:54,538 DEBUG - Completed. Exit code is 0
+2020-07-01 00:18:56,444 DEBUG - Starting WinSW in the service mode
+2020-07-01 00:18:56,460 INFO  - Starting C:\DEV\nginx\nginx.exe 
+2020-07-01 00:18:56,475 INFO  - Started process 11820
+2020-07-01 00:18:56,475 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.DefaultLogAppender
+2020-07-01 00:30:25,468 INFO  - Stopping nginx
+2020-07-01 00:30:25,469 DEBUG - ProcessKill 11820
+2020-07-01 00:30:25,532 INFO  - Found child process: 14924 Name: nginx.exe
+2020-07-01 00:30:25,571 INFO  - Found child process: 6332 Name: conhost.exe
+2020-07-01 00:30:25,612 INFO  - Stopping process 6332
+2020-07-01 00:30:25,618 INFO  - Send SIGINT 6332
+2020-07-01 00:30:25,619 WARN  - SIGINT to 6332 failed - Killing as fallback
+2020-07-01 00:30:25,626 INFO  - Stopping process 14924
+2020-07-01 00:30:25,631 INFO  - Send SIGINT 14924
+2020-07-01 00:30:25,632 WARN  - SIGINT to 14924 failed - Killing as fallback
+2020-07-01 00:30:25,638 INFO  - Stopping process 11820
+2020-07-01 00:30:25,644 INFO  - Send SIGINT 11820
+2020-07-01 00:30:25,645 WARN  - SIGINT to 11820 failed - Killing as fallback
+2020-07-01 00:30:25,648 INFO  - Finished nginx
+2020-07-01 00:30:25,649 DEBUG - Completed. Exit code is 0
+2020-07-01 00:30:27,536 DEBUG - Starting WinSW in the service mode
+2020-07-01 00:30:27,550 INFO  - Starting C:\DEV\nginx\nginx.exe 
+2020-07-01 00:30:27,566 INFO  - Started process 17744
+2020-07-01 00:30:27,571 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.DefaultLogAppender
+2020-07-01 00:36:33,099 INFO  - Stopping nginx
+2020-07-01 00:36:33,100 DEBUG - ProcessKill 17744
+2020-07-01 00:36:33,166 INFO  - Found child process: 3884 Name: nginx.exe
+2020-07-01 00:36:33,206 INFO  - Found child process: 16528 Name: conhost.exe
+2020-07-01 00:36:33,246 INFO  - Stopping process 16528
+2020-07-01 00:36:33,251 INFO  - Send SIGINT 16528
+2020-07-01 00:36:33,253 WARN  - SIGINT to 16528 failed - Killing as fallback
+2020-07-01 00:36:33,259 INFO  - Stopping process 3884
+2020-07-01 00:36:33,266 INFO  - Send SIGINT 3884
+2020-07-01 00:36:33,267 WARN  - SIGINT to 3884 failed - Killing as fallback
+2020-07-01 00:36:33,273 INFO  - Stopping process 17744
+2020-07-01 00:36:33,280 INFO  - Send SIGINT 17744
+2020-07-01 00:36:33,281 WARN  - SIGINT to 17744 failed - Killing as fallback
+2020-07-01 00:36:33,284 INFO  - Finished nginx
+2020-07-01 00:36:33,286 DEBUG - Completed. Exit code is 0
+2020-07-01 00:36:35,164 DEBUG - Starting WinSW in the service mode
+2020-07-01 00:36:35,180 INFO  - Starting C:\DEV\nginx\nginx.exe 
+2020-07-01 00:36:35,195 INFO  - Started process 796
+2020-07-01 00:36:35,195 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.DefaultLogAppender
+2020-07-01 11:14:05,331 INFO  - Stopping nginx
+2020-07-01 11:14:05,331 DEBUG - ProcessKill 796
+2020-07-01 11:14:05,409 INFO  - Found child process: 12652 Name: nginx.exe
+2020-07-01 11:14:05,456 INFO  - Found child process: 13732 Name: conhost.exe
+2020-07-01 11:14:05,503 INFO  - Stopping process 13732
+2020-07-01 11:14:05,503 INFO  - Send SIGINT 13732
+2020-07-01 11:14:05,503 WARN  - SIGINT to 13732 failed - Killing as fallback
+2020-07-01 11:14:05,518 INFO  - Stopping process 12652
+2020-07-01 11:14:05,518 INFO  - Send SIGINT 12652
+2020-07-01 11:14:05,518 WARN  - SIGINT to 12652 failed - Killing as fallback
+2020-07-01 11:14:05,534 INFO  - Stopping process 796
+2020-07-01 11:14:05,541 INFO  - Send SIGINT 796
+2020-07-01 11:14:05,542 WARN  - SIGINT to 796 failed - Killing as fallback
+2020-07-01 11:14:05,545 INFO  - Finished nginx
+2020-07-01 11:14:05,547 DEBUG - Completed. Exit code is 0
+2020-07-01 11:14:07,398 DEBUG - Starting WinSW in the service mode
+2020-07-01 11:14:07,412 INFO  - Starting C:\DEV\nginx\nginx.exe 
+2020-07-01 11:14:07,429 INFO  - Started process 9480
+2020-07-01 11:14:07,433 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.DefaultLogAppender
+2020-07-02 17:18:12,708 INFO  - Stopping nginx
+2020-07-02 17:18:12,770 DEBUG - ProcessKill 9480
+2020-07-02 17:18:12,908 WARN  - Failed to locate children of the process with PID=9480. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is in progress.
+
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2020-07-02 17:18:12,924 INFO  - Stopping process 9480
+2020-07-02 17:18:12,939 INFO  - Send SIGINT 9480
+2020-07-02 17:18:12,939 WARN  - SIGINT to 9480 failed - Killing as fallback
+2020-07-02 17:18:12,939 INFO  - Finished nginx
+2020-07-02 17:18:12,955 DEBUG - Completed. Exit code is 0
+2020-07-02 17:18:48,278 DEBUG - Starting WinSW in the service mode
+2020-07-02 17:18:48,686 INFO  - Starting C:\DEV\nginx\nginx.exe 
+2020-07-02 17:18:48,799 INFO  - Started process 7896
+2020-07-02 17:18:48,804 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.DefaultLogAppender
+2020-07-02 17:22:25,261 INFO  - Stopping nginx
+2020-07-02 17:22:25,308 DEBUG - ProcessKill 7896
+2020-07-02 17:22:25,449 WARN  - Failed to locate children of the process with PID=7896. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x80040154): Class not registered
+
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2020-07-02 17:22:25,464 INFO  - Stopping process 7896
+2020-07-02 17:22:25,464 INFO  - Send SIGINT 7896
+2020-07-02 17:22:25,464 WARN  - SIGINT to 7896 failed - Killing as fallback
+2020-07-02 17:22:25,480 INFO  - Finished nginx
+2020-07-02 17:22:25,480 DEBUG - Completed. Exit code is 0
+2020-07-02 17:25:11,366 DEBUG - Starting WinSW in the service mode
+2020-07-02 17:25:11,757 INFO  - Starting C:\DEV\nginx\nginx.exe 
+2020-07-02 17:25:11,902 INFO  - Started process 7996
+2020-07-02 17:25:11,907 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.DefaultLogAppender
+2020-07-02 17:43:02,590 INFO  - Stopping nginx
+2020-07-02 17:43:02,605 DEBUG - ProcessKill 7996
+2020-07-02 17:43:02,706 WARN  - Failed to locate children of the process with PID=7996. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is in progress.
+
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2020-07-02 17:43:02,716 INFO  - Stopping process 7996
+2020-07-02 17:43:02,732 INFO  - Send SIGINT 7996
+2020-07-02 17:43:02,732 WARN  - SIGINT to 7996 failed - Killing as fallback
+2020-07-02 17:43:02,732 INFO  - Finished nginx
+2020-07-02 17:43:02,732 DEBUG - Completed. Exit code is 0
+2020-07-02 20:23:37,057 DEBUG - Starting WinSW in the service mode
+2020-07-02 20:23:37,298 INFO  - Starting C:\DEV\nginx\nginx.exe 
+2020-07-02 20:23:37,366 INFO  - Started process 7084
+2020-07-02 20:23:37,372 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.DefaultLogAppender
+2020-07-03 00:34:32,557 INFO  - Stopping nginx
+2020-07-03 00:34:32,557 DEBUG - ProcessKill 7084
+2020-07-03 00:34:32,651 WARN  - Failed to locate children of the process with PID=7084. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is in progress.
+
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2020-07-03 00:34:32,667 INFO  - Stopping process 7084
+2020-07-03 00:34:32,682 INFO  - Send SIGINT 7084
+2020-07-03 00:34:32,682 WARN  - SIGINT to 7084 failed - Killing as fallback
+2020-07-03 00:34:32,698 INFO  - Finished nginx
+2020-07-03 00:34:32,698 DEBUG - Completed. Exit code is 0
+2020-07-03 00:35:05,178 DEBUG - Starting WinSW in the service mode
+2020-07-03 00:35:05,242 INFO  - Starting C:\DEV\nginx\nginx.exe 
+2020-07-03 00:35:05,305 INFO  - Started process 7348
+2020-07-03 00:35:05,311 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.DefaultLogAppender
